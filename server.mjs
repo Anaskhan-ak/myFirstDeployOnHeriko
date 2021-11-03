@@ -2,9 +2,8 @@ import express from "express";
 const app = express()
 
 const port =process.env.PORT || 3000;
-let Akk = env.AKK
 app.get("/",(req,res) => {
-    res.send("Hey! Welcome To Node Js",process.env)
+    res.send("Hey! Welcome To Node Js")
 })
 app.get("/home",(req,res) => {
     res.send("Hey! Welcome To Home Page")
